@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: red;
+}
+.heading{
+    margin: 10px;
+}
+.cert-container{
+    display: flex;
+    justify-content: space-between;
+}
+.live li{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(4, 5, 4, 0.865);
+    color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    border: 1px black;
+    align-content: space-around;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+.live ul{
+    display: flex;
+    flex-direction: column;
+}
+.live li:hover{
+    background-color: rgb(155, 155, 155);
+    color:rgb(0, 0, 0);
+    transition: 0.9s;  
+}
+.solo li{
+    display: flex;
+    background-color: rgba(4, 5, 4, 0.865);
+    color: rgb(255, 255, 255);justify-content: center;
+    border: 1px black;
+    
+    border-radius: 10px;
+    
+    padding: 10px;
+    margin: 5px;
+}
+.solo li:hover{
+    background-color: rgb(155, 155, 155);
+    color:rgb(0, 0, 0);
+    
+    transition: 0.9s;
+}
+.great li{
+    border-radius: 10px;
+    background-color: rgba(4, 5, 4, 0.865);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 5px;
+    margin-left:45px;
+    display: flex;
+    justify-content: center;
+}
+.great li:hover{
+    background-color: rgb(162, 162, 162);
+    color: rgb(0, 0, 0);
+    transition: 0.9s;
+}

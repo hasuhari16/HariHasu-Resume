@@ -1,0 +1,64 @@
+:root {
+    --Head-bg: rgb(8, 89, 95);
+    --cr-bg:rgb(212, 212, 212);
+    --ht:350px;
+    --wd : 470px;
+
+  }
+body{
+    background-color: rgba(197, 197, 197, 0.202);
+}
+.cHeading{
+    background-color: var(--Head-bg);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    font-size: 20pt;
+}
+.cer-cont{
+    background-color:var(--cr-bg);
+    border: 2px thin rgb(101, 101, 101);
+    border-radius: 10px;
+}
+.cer-cont img{
+    height: var(--ht);
+    width:var(--wd);
+    border-radius: 10px;
+    border: 1px black thin;
+    padding: 1%;
+    opacity: .7;
+}
+.cer-cont img:hover{
+    opacity: 1;
+    background-color: rgb(0, 0, 0);
+}
+.cer-box .logo{
+   height: 100px;
+   width: 200px;
+   margin-top: 5em;
+}
+.cer-box .log:hover{
+    background-color: rgb(0, 0, 0);
+ }
+.cer-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: 10px;
+    border: 2px solid rgba(3, 101, 128, 0.962);
+    padding: 10px;
+    border-radius: 2ex; 
+}
+.gt-hack{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cert-container{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    color: hsl(184, 85%, 10%);
+    font-size: 2ch;
+}
